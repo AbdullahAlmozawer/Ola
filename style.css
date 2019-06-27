@@ -1,0 +1,113 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: white;
+  color: red;
+}
+.nav-logo {
+  margin: 10px;
+  padding-right: 100px;
+}
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  font-size: 30px;
+}
+.nav-items {
+  margin-block-start: 0, 5rem;
+  margin-block-end: 0, 5rem;
+  padding-inline-start: 40px;
+}
+.nav-items a {
+  color: red;
+}
+.search {
+  margin: 40px;
+}
+
+.btn-search {
+  font-size: 30px;
+  color: red;
+  background: none;
+  border: none;
+}
+.show {
+}
+.h1-show {
+  height: 70vh;
+  background: url("https://asset-eu.unileversolutions.com/content/dam/unilever/heart/netherlands/general_image/walls_nl_header-1382974-jpg.jpg.ulenscale.600x150.jpg")
+    center center/cover;
+  background-repeat: no-repeat;
+  font-family: "Lobster", cursive;
+
+  font-size: 3rem;
+  padding: 20vh;
+}
+
+.show-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: red;
+}
+.show-img {
+  flex: 0 1 25%;
+}
+.show-img img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.history {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  background: green;
+}
+.history-img {
+  display: block;
+  padding: 3%;
+}
+.history-content {
+  font-size: 18px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 11%;
+  color: whitesmoke;
+}
+.h2-content {
+}
+footer {
+  background: red;
+  display: flex;
+  flex-direction: column;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  list-style: none;
+  padding: 30px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+.footer-items {
+}
